@@ -1,10 +1,16 @@
-baseURL = "https://YihuanHu.github.io/"
-title = "My Portfolio"
-theme = "hugo-PaperMod" # Ensure this matches the theme folder name in `themes/`
-publishDir = "docs"  # This tells Hugo to output the site into `docs/`
-paginate = 10
+baseURL: "https://YihuanHu.github.io/"
+title: "My Portfolio"
+theme: "hugo-PaperMod" # Ensure this matches the name of the theme folder
+publishDir: "docs" # This tells Hugo to output the static files into the 'docs/' folder
 
-[params]
-  author = "Yihuan Hu"
-  description = "My Portfolio built with Hugo and PaperMod theme"
-  defaultTheme = "light"
+paginate: 10
+
+params:
+  author: "Yihuan Hu"
+  description: "A personal portfolio site built with Hugo and PaperMod theme"
+  defaultTheme: "light"
+
+markup:
+  goldmark:
+    renderer:
+      unsafe: true
