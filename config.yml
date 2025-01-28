@@ -1,4 +1,4 @@
-baseURL = "https://YihuanHu.github.io"
+baseURL = "https://YihuanHu.github.io/"
 title = "My Portfolio"
 theme = "hugo-PaperMod" # Ensure this matches the theme folder name in `themes/`
 publishDir = "docs"  # This tells Hugo to output the site into `docs/`
