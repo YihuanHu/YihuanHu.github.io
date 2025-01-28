@@ -1,0 +1,10 @@
+baseURL = "https://YihuanHu.github.io"
+title = "My Portfolio"
+theme = "hugo-PaperMod" # Ensure this matches the theme folder name in `themes/`
+publishDir = "docs"  # This tells Hugo to output the site into `docs/`
+paginate = 10
+
+[params]
+  author = "Yihuan Hu"
+  description = "My Portfolio built with Hugo and PaperMod theme"
+  defaultTheme = "light"
